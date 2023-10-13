@@ -26,7 +26,7 @@
 
       <div
         class="nav-links duration-500 md:static md:min-h-fit pr-5 absolute bg-hex-yellow min-h-[30vh] md:w-auto left-0 top-[-100%] w-full flex px-5">
-        <ul class="text-white flex items-center gap-16 md:flex-row flex-col md:items-center md:gap-[4vw] gap-5">
+        <ul class="text-white flex items-center md:flex-row flex-col md:items-center md:gap-[4vw] gap-5">
           <li>
             <a href="#" class="transition 500 hover:text-hex-white font-semibold text-background-yellow-color">Home</a>
           </li>
@@ -241,7 +241,7 @@
   </main>
 
   <footer>
-    <section class="bg-gray-900 pt-20 pb-96 px-5">
+    <section class="bg-gray-900 pt-20 pb-28 px-5">
 
       <div class=" space-y-5 md:flex md:items-center md:justify-between md:px-5 md:space-x-3 ">
         <!--    -->
@@ -282,7 +282,8 @@
           <p class="text-lg font-semibold text-center">Terms and conditions</p>
           <ul class="list-none mt-3 space-y-3">
             <li class="flex items-center">
-              <p class="text-xs text-center">Users are responsible for the accuracy of their personal information, and
+              <p class="text-xs md:text-base text-center">Users are responsible for the accuracy of their personal
+                information, and
                 they agree to
                 use the website for educational purposes only. Sharing login credentials or engaging in disruptive
                 behavior is <strong>not allowed</strong>.</p>
@@ -291,8 +292,6 @@
         </div>
 
         <!-- Contact -->
-        <!-- basis-4/12 max-w-xs -->
-        <!-- w-64 h-64 -->
         <div
           class="md:basis-4/12 md:max-w-xs md:w-64 md:h-64 text-black bg-hex-yellow  px-5 pt-5 pb-4 rounded-lg hover:cursor-pointer transition 500 hover:-translate-y-1 md:hover:shadow-yellow-box-shadow">
           <p class="text-lg font-semibold">Contact</p>
@@ -323,17 +322,48 @@
       </div>
     </section>
 
+    <section class="bg-black text-white px-5 pt-14 pb-10 text-center space-y-3">
+      <p class="text-white">Copyright&copy; - 2023 | All rights reserved. </p>
+      <p class="text-white">Designed by <a href="https://github.com/Mushkir/javascript-dom-landing-page-idea"
+          title="Go to GitHub Repo" target="_blank" class="text-hex-yellow transition 500 hover:text-white">Mushkir</a>
+        via 06 Months
+        Internship of <a href="https://cyberdudenetworks.com" title="Go to CyberDude Networks" target="_blank"
+          class="text-hex-yellow transition 500 hover:text-white">CyberDude
+          Networks</a></p>
+
+      <!-- Social Links -->
+      <div class="md:text-xl md:space-x-3">
+        <!-- GitHub -->
+        <a href="https://github.com/Mushkir" target="_blank" title="Open Mushkir's Repository"><ion-icon
+            name="logo-github" class="transition 500 hover:-translate-y-1 cursor-pointer"></ion-icon></a>
+
+        <!-- LinkedIn -->
+        <a href="https://www.instagram.com" target="_blank" title="Go to Instagram Profile"><ion-icon
+            name="logo-linkedin"
+            class="transition 500 hover:-translate-y-1 cursor-pointer hover:text-linked-in-color"></ion-icon></a>
+
+        <!-- Facebook -->
+        <a href="https://www.facebook.com/profile.php?id=100059556802890" title="Open Mushkir's Facebook Profile" target="_blank"><ion-icon name="logo-facebook" class="transition 500 hover:-translate-y-1 cursor-pointer hover:text-fb-color-code"></ion-icon></a>
+
+        <!-- Instagram -->
+        <a href="https://www.instagram.com" target="_blank" title="Go to Mushkir's Instagram Profile"> <ion-icon
+            name="logo-instagram" class="transition 500 hover:-translate-y-1 cursor-pointer"></ion-icon> </a>
+      </div>
+    </section>
+
   </footer>
 
 
+  <!-- JS Files -->
   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
+  <!-- Toggle Menu JS -->
   <script>
     const nav_links = document.querySelector(".nav-links");
     function onToggleMenu(e) {
       e.name = e.name === "menu" ? "close" : "menu";
-      nav_links.classList.toggle("top-[9%]");
+      nav_links.classList.toggle("top-[20px]");
     }
   </script>
 </body>

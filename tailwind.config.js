@@ -12,7 +12,9 @@ export default {
       colors: {
         "background-yellow-color":"#004225",
         "hex-white":"#F5F5DC",
-        "hex-yellow":"#FFB000"
+        "hex-yellow":"#FFB000",
+        "linked-in-color":" #0072b1",
+        "fb-color-code":"#4267B2"
       }
     },
   },
