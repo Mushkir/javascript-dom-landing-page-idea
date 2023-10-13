@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      boxShadow: {
+        "yellow-box-shadow":"0px 3px 16px -1px rgba(255,174,0,1)"
+      },
       colors: {
         "background-yellow-color":"#004225",
         "hex-white":"#F5F5DC",
