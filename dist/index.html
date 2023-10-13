@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/javascript-dom-landing-page-idea/assets/javascript-8dac5379.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home | JS DOM</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script type="module" crossorigin src="/javascript-dom-landing-page-idea/assets/index-dd85be84.js"></script>
+    <link rel="stylesheet" href="/javascript-dom-landing-page-idea/assets/index-a05e6704.css">
+  </head>
+  <body class="bg-background-yellow-color">
+    <header class="bg-hex-yellow p-8">
+      <nav class="flex items-center justify-between mx-auto">
+        <div>
+          <a href="./index.html">
+            <!-- <img src="" alt=""> -->
+          <h1 class="text-white text-xl">Logo Here</h1>
+          </a>
+        </div>
+
+        <div class="nav-links duration-500 md:static md:min-h-fit pr-5 absolute bg-hex-yellow min-h-[30vh] md:w-auto left-0 top-[-100%] w-full flex px-5">
+          <ul class="text-white flex items-center gap-16 md:flex-row flex-col md:items-center md:gap-[4vw] gap-5">
+            <li><a href="#" class="transition 500 hover:text-hex-white font-semibold text-background-yellow-color">Home</a></li>
+            <li><a href="#" class="transition 500 hover:text-hex-white font-semibold text-background-yellow-color">About</a></li>
+            <li><a href="#" class="transition 500 hover:text-hex-white font-semibold text-background-yellow-color">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="flex items-center gap-5">
+          <button class="bg-background-yellow-color px-3 py-0.5 pb-1 text-center text-hex-white font-semibold rounded-full">Explore</button>
+          <ion-icon name="menu" onclick="onToggleMenu(this)" class="text-3xl cursor-pointer text-background-yellow-color md:hidden"></ion-icon>
+        </div>
+      </nav>
+    </header>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script>
+
+      const nav_links = document.querySelector('.nav-links')
+      function onToggleMenu(e) {
+        e.name = e.name === 'menu' ? 'close' : 'menu'
+        nav_links.classList.toggle('top-[9%]')
+      }
+    </script>
+  </body>
+</html>
