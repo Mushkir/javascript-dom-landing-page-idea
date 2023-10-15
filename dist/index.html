@@ -11,33 +11,35 @@
   <link rel="stylesheet" href="https://unicornicons.com">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
   
-  <script type="module" crossorigin src="/javascript-dom-landing-page-idea/assets/index-3c7392cc.js"></script>
-  <link rel="stylesheet" href="/javascript-dom-landing-page-idea/assets/index-05f7d9ef.css">
+  <script type="module" crossorigin src="/javascript-dom-landing-page-idea/assets/index-f149774c.js"></script>
+  <link rel="stylesheet" href="/javascript-dom-landing-page-idea/assets/index-8ec13b75.css">
 </head>
 
 <body class="bg-black">
   <!-- Header Menu -->
-  <header class="bg-hex-yellow p-8">
+  <header class="bg-hex-yellow p-8 font-montserrat">
     <nav class="flex items-center justify-between mx-auto">
       <div>
-        <a href="./index.html">
+        <a href="./index.html" class="flex items-center space-x-1">
           <!-- <img src="" alt=""> -->
-          <h1 class="text-white text-xl">Logo Here</h1>
+          <h1 class="text-background-yellow-color text-2xl font-semibold font-caveat">JS Coders</h1>
+          <ion-icon name="code-slash" class="text-2xl text-background-yellow-color"></ion-icon>
         </a>
       </div>
-
+      
+      <!-- Menu -->
       <div
         class="nav-links duration-500 md:static md:min-h-fit pr-5 absolute bg-hex-yellow min-h-[30vh] md:w-auto left-0 top-[-100%] w-full flex px-5">
         <ul class="text-white flex items-center md:flex-row flex-col md:items-center md:gap-[4vw] gap-5">
           <li>
-            <a href="#" class="transition 500 hover:text-hex-white font-semibold text-background-yellow-color">Home</a>
+            <a href="#" class="transition 500 hover:text-hex-white font-medium text-background-yellow-color">Home</a>
           </li>
           <li>
-            <a href="#" class="transition 500 hover:text-hex-white font-semibold text-background-yellow-color">About</a>
+            <a href="#" class="transition 500 hover:text-hex-white font-medium text-background-yellow-color">About</a>
           </li>
           <li>
             <a href="#"
-              class="transition 500 hover:text-hex-white font-semibold text-background-yellow-color">Contact</a>
+              class="transition 500 hover:text-hex-white font-mediumd text-background-yellow-color">Contact</a>
           </li>
         </ul>
       </div>
@@ -53,15 +55,24 @@
     </nav>
   </header>
 
-  <main>
+  <main class="font-montserrat">
+    <section class="text-white font-montserrat text-center mt-40 space-y-3">
+      <p class="tracking-2px font-medium">LET'S GET <span class="text-hex-yellow">MANIPULATE</span> WITH
+      </p>
+      <p class="text-3xl md:text-6xl font-semibold pt-6 pb-4">JAVASCRIPT <span title="Document Object Modeling" class="text-hex-yellow cursor-pointer">DOM</span></p>
+      <p class="text-xs md:text-xl md:font-medium">LEARN <span class="text-hex-yellow">JAVASCRIPT DOM</span> WITH US IN <span
+          class="text-hex-yellow">81</span> PRETTY GOOD VIDEOS</p>
+      <P class="text-xs md:text-base">FROM <span class="text-hex-yellow">FUNDAMENTALS</span> TO <span class="text-hex-yellow">REAL WORLD</span> IN 08
+        HOURS</P>
+    </section>
     <!-- Why JavaScript DOM? -->
     <section class="px-5 pb-16">
-      <div class="mt-44 row sm:flex-row md:p-4 flex-col flex gap-3 justify-between items-center">
+      <div class="mt-44 row sm:flex-row md:p-4 flex-col flex gap-5 justify-between items-center">
         <div class="sm:w-2/4 space-y-2">
           <h1 class="text-hex-yellow text-2xl font-semibold">
             Why JavaScript DOM?
           </h1>
-          <p class="text-hex-white text-md text-justify pb-4">
+          <p class="text-hex-white font-light text-justify pb-4">
             JavaScript DOM (Document Object Model) is the wizard behind the
             curtain of web development. It turns static web pages into
             dynamic, user-friendly experiences. With DOM, you can create
@@ -80,8 +91,8 @@
           </p>
         </div>
 
-        <div class="sm:w-2/4">
-          <video controls class="aspect-video">
+        <div class="sm:w-2/4 rounded-md">
+          <video controls class="aspect-video rounded-md">
             <source
               src="/javascript-dom-landing-page-idea/assets/01 - Introduction to Javascript DOM Course - (தமிழில்) (Tamil) JavaScript DOM-01365de0.mp4"
               type="video/mp4" />
@@ -95,39 +106,7 @@
       <p class="text-center text-hex-yellow text-3xl font-semibold">
         Category
       </p>
-      <div class="sm:flex-row flex-col flex justify-center gap-5 items-center space-y-4 pt-12">
-        <!-- Beginner -->
-        <div
-          class="lg:py-40 bg-black w-full py-20 flex basis-2/6 flex-col items-center rounded-md justify-center hover:cursor-pointer hover:shadow-yellow-box-shadow transition 500">
-          <div class="flex items-center space-x-1 justify-center">
-            <div class="bg-white w-5 h-5 lg:w-8 lg:h-8 rounded-l-full"></div>
-            <div class="border-white border-2 w-5 h-5 lg:w-8 lg:h-8"></div>
-            <div class="border-white border-2 w-5 h-5 lg:w-8 lg:h-8 rounded-r-full"></div>
-          </div>
-          <p class="text-center text-lg font-normal mt-4 hover:text-hex-yellow transition 500">Beginner</p>
-        </div>
-
-        <!-- Intermediate -->
-        <div
-          class="lg:py-40 bg-black w-full py-20 flex basis-2/6 flex-col items-center rounded-md justify-center hover:cursor-pointer hover:shadow-yellow-box-shadow transition 500">
-          <div class="flex items-center space-x-1 justify-center">
-            <div class="bg-white w-5 h-5 lg:w-8 lg:h-8 rounded-l-full"></div>
-            <div class="bg-white border-2 w-5 h-5 lg:w-8 lg:h-8"></div>
-            <div class="border-white border-2 w-5 h-5 lg:w-8 lg:h-8 rounded-r-full"></div>
-          </div>
-          <p class="text-center text-lg font-normal mt-4 hover:text-hex-yellow transition 500">Intermediate</p>
-        </div>
-        <!-- Advanced -->
-        <div
-          class="lg:py-40 bg-black w-full py-20 flex basis-2/6 flex-col items-center rounded-md justify-center hover:cursor-pointer hover:shadow-yellow-box-shadow transition 500">
-          <div class="flex items-center space-x-1 justify-center">
-            <div class="bg-white w-5 h-5 lg:w-8 lg:h-8 rounded-l-full"></div>
-            <div class="bg-white w-5 h-5 lg:w-8 lg:h-8"></div>
-            <div class="bg-white w-5 h-5 rounded-r-full lg:w-8 lg:h-8"></div>
-          </div>
-          <p class="text-center text-lg font-normal mt-4 hover:text-hex-yellow transition 500">Advance</p>
-        </div>
-      </div>
+      
     </section>
 
     <!-- Frequently Asked Question -->
@@ -345,7 +324,9 @@
             class="transition 500 hover:-translate-y-1 cursor-pointer hover:text-linked-in-color"></ion-icon></a>
 
         <!-- Facebook -->
-        <a href="https://www.facebook.com/profile.php?id=100059556802890" title="Open Mushkir's Facebook Profile" target="_blank"><ion-icon name="logo-facebook" class="transition 500 hover:-translate-y-1 cursor-pointer hover:text-fb-color-code"></ion-icon></a>
+        <a href="https://www.facebook.com/profile.php?id=100059556802890" title="Open Mushkir's Facebook Profile"
+          target="_blank"><ion-icon name="logo-facebook"
+            class="transition 500 hover:-translate-y-1 cursor-pointer hover:text-fb-color-code"></ion-icon></a>
 
         <!-- Instagram -->
         <a href="https://www.instagram.com" target="_blank" title="Go to Mushkir's Instagram Profile"> <ion-icon

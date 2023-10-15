@@ -14,7 +14,15 @@ export default {
         "hex-white":"#F5F5DC",
         "hex-yellow":"#FFB000",
         "linked-in-color":" #0072b1",
-        "fb-color-code":"#4267B2"
+        "fb-color-code":"#4267B2",
+        "primary-bg-color":"#d1d3d8"
+      },
+      fontFamily: {
+        caveat: ['Caveat'],
+        montserrat: ['Montserrat']
+      },
+      letterSpacing: {
+        "2px" :"0.4em"
       }
     },
   },
