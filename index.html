@@ -11,13 +11,13 @@
   <link rel="stylesheet" href="https://unicornicons.com">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
   
-  <script type="module" crossorigin src="/javascript-dom-landing-page-idea/assets/index-778faa6a.js"></script>
-  <link rel="stylesheet" href="/javascript-dom-landing-page-idea/assets/index-b6d51637.css">
+  <script type="module" crossorigin src="/javascript-dom-landing-page-idea/assets/index-995ff1e8.js"></script>
+  <link rel="stylesheet" href="/javascript-dom-landing-page-idea/assets/index-90200739.css">
 </head>
 
 <body class="bg-black">
   <!-- Header Menu -->
-  <header class="bg-hex-yellow p-8 font-montserrat">
+  <header class="bg-hex-yellow p-8 font-nunito">
     <nav class="flex items-center justify-between mx-auto">
       <div>
         <a href="./index.html" class="flex items-center space-x-1">
@@ -26,47 +26,57 @@
           <ion-icon name="code-slash" class="text-2xl text-background-yellow-color"></ion-icon>
         </a>
       </div>
-      
+
       <!-- Menu -->
       <div
         class="nav-links duration-500 md:static md:min-h-fit pr-5 absolute bg-hex-yellow min-h-[30vh] md:w-auto left-0 top-[-100%] w-full flex px-5">
         <ul class="text-white flex items-center md:flex-row flex-col md:items-center md:gap-[4vw] gap-5">
-          <li>
-            <a href="#" class="transition 500 hover:text-hex-white font-medium text-background-yellow-color">Home</a>
+          <li class="active:text-hex-white">
+            <a href="./index.html"
+              class="transition 500 hover:text-hex-white text-lg font-medium text-background-yellow-color">Home</a>
+          </li>
+          <li class="active:text-hex-white">
+            <a href="https://cyberdudenetworks.com/about" target="_blank"
+              class="transition 500 hover:text-hex-white text-lg font-medium text-background-yellow-color">About</a>
           </li>
           <li>
-            <a href="#" class="transition 500 hover:text-hex-white font-medium text-background-yellow-color">About</a>
-          </li>
-          <li>
-            <a href="#"
-              class="transition 500 hover:text-hex-white font-mediumd text-background-yellow-color">Contact</a>
+            <a href="https://cyberdudenetworks.com/contact-us" target="_blank"
+              class="transition 500 hover:text-hex-white text-lg font-medium text-background-yellow-color">Contact</a>
           </li>
         </ul>
       </div>
 
       <div class="flex items-center gap-5">
-        <button
-          class="bg-background-yellow-color px-3 py-0.5 pb-1 text-center text-hex-white font-semibold rounded-full">
-          Explore
-        </button>
+        <a href="https://github.com/Mushkir/javascript-dom-landing-page-idea" target="_blank"
+          class="text-background-yellow-color cursor-pointer transition 500 hover:-translate-y-1" title="Go to Repo">
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+            <path fill="currentColor"
+              d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33c.85 0 1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z" />
+          </svg>
+        </a>
         <ion-icon name="menu" onclick="onToggleMenu(this)"
           class="text-3xl cursor-pointer text-background-yellow-color md:hidden"></ion-icon>
       </div>
     </nav>
   </header>
 
-  <main class="font-montserrat">
+  <main>
+    <!-- Banner Heading -->
     <section class="text-white font-montserrat text-center mt-40 space-y-3">
       <p class="tracking-2px font-medium">LET'S GET <span class="text-hex-yellow">MANIPULATE</span> WITH
       </p>
-      <p class="text-3xl md:text-6xl font-semibold pt-6 pb-4">JAVASCRIPT <span title="Document Object Modeling" class="text-hex-yellow cursor-pointer">DOM</span></p>
-      <p class="text-xs md:text-xl md:font-medium">LEARN <span class="text-hex-yellow">JAVASCRIPT DOM</span> WITH US IN <span
-          class="text-hex-yellow">81</span> PRETTY GOOD VIDEOS</p>
-      <P class="text-xs md:text-base">FROM <span class="text-hex-yellow">FUNDAMENTALS</span> TO <span class="text-hex-yellow">REAL WORLD</span> IN 08
+      <p class="text-3xl md:text-6xl font-semibold pt-6 pb-4">JAVASCRIPT <span title="Document Object Modeling"
+          class="text-hex-yellow cursor-pointer">DOM</span></p>
+      <p class="text-xs md:text-xl md:font-medium">LEARN <span class="text-hex-yellow">JAVASCRIPT DOM</span> WITH US IN
+        <span class="text-hex-yellow">81</span> PRETTY GOOD VIDEOS
+      </p>
+      <P class="text-xs md:text-base">FROM <span class="text-hex-yellow">FUNDAMENTALS</span> TO <span
+          class="text-hex-yellow">REAL WORLD</span> IN 08
         HOURS</P>
     </section>
+
     <!-- Why JavaScript DOM? -->
-    <section class="px-5 pb-16">
+    <section class="px-5 pb-12">
       <div class="mt-44 row sm:flex-row md:p-4 flex-col flex gap-5 justify-between items-center">
         <div class="sm:w-2/4 space-y-2">
           <h1 class="text-hex-yellow text-2xl font-semibold">
@@ -99,8 +109,16 @@
           </video>
         </div>
       </div>
+
+      <!-- Arrow mark -->
+      <a href="./index.html" class="delay-1000">
+        <div class="flex items-center justify-end mr-4 mt-8">
+          <ion-icon name="caret-up" class="bg-hex-yellow text-xl rounded-full cursor-pointer w-5 h-5"></ion-icon>
+        </div>
+      </a>
     </section>
 
+    <!-- 08 hours x 81 videos -->
     <section class="text-white bg-gray-900 pt-28 px-5 pb-16">
       <p class="text-center text-hex-yellow text-2xl md:text-3xl font-semibold">
         08 Hours &nbsp; <span class="text-hex-white">X</span> &nbsp; 81 Videos
@@ -183,7 +201,22 @@
           </div>
 
         </div>
+
+        <!-- Explore more -->
+        <div class="flex justify-center items-center">
+          <a href="#" class="bg-hex-yellow text-black py-1.5 px-5 rounded-full font-semibold transition 500 hover:scale-105">Explore More</a>
+        </div>
+
+        <!-- Arrow mark -->
+        <a href="./index.html" class="delay-1000">
+          <div class="flex items-center justify-end mr-4 mt-8">
+            <ion-icon name="caret-up"
+              class="bg-hex-yellow text-black text-xl rounded-full cursor-pointer w-5 h-5"></ion-icon>
+          </div>
+        </a>
       </div>
+
+
     </section>
 
     <!-- Frequently Asked Question -->
@@ -298,7 +331,7 @@
     </section>
   </main>
 
-  <footer>
+  <footer class="font-nunito">
     <section class="bg-gray-900 pt-20 pb-28 px-5">
 
       <div class="md:flex md:items-center md:justify-between md:px-5 md:space-x-3 ">
@@ -401,8 +434,8 @@
             class="transition 500 hover:-translate-y-1 cursor-pointer hover:text-fb-color-code"></ion-icon></a>
 
         <!-- Instagram -->
-        <a href="https://www.instagram.com" target="_blank" title="Go to Mushkir's Instagram Profile"> <ion-icon
-            name="logo-instagram" class="transition 500 hover:-translate-y-1 cursor-pointer"></ion-icon> </a>
+        <a href="https://www.instagram.com/mushkir_9611/" target="_blank" title="Go to Mushkir's Instagram Profile">
+          <ion-icon name="logo-instagram" class="transition 500 hover:-translate-y-1 cursor-pointer"></ion-icon> </a>
       </div>
     </section>
 
