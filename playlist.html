@@ -10,104 +10,111 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://unicornicons.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     
-  <script type="module" crossorigin src="/javascript-dom-landing-page-idea/assets/main-d3e52139.js"></script>
-  <link rel="stylesheet" href="/javascript-dom-landing-page-idea/assets/main-ff3f0c5c.css">
+  <script type="module" crossorigin src="/javascript-dom-landing-page-idea/assets/main-1fac9070.js"></script>
+  <link rel="stylesheet" href="/javascript-dom-landing-page-idea/assets/main-9c5a6273.css">
 </head>
 
 <body>
-    <div class="flex h-full">
-        <!-- Left-side menu -->
-        <div class="bg-hex-yellow w-56">
-            <nav class="flex flex-col">
-                <!-- Logo -->
-                <a href="./index.html" class="flex items-center space-x-1 mx-auto pt-10">
-                    <!-- <img src="" alt=""> -->
-                    <h1 class="text-background-yellow-color text-2xl font-semibold font-caveat">JS Coders</h1>
-                    <ion-icon name="code-slash" class="text-2xl text-background-yellow-color"></ion-icon>
-                </a>
+    <div class="block sm:flex">
+        <header class="bg-hex-yellow p-8 font-nunito sm:max-w-screen-lg">
+            <nav class="flex sm:block items-center justify-between mx-auto">
+                <div class="sm:pb-10">
+                    <a href="./index.html" class="flex items-center space-x-1">
+                        <!-- <img src="" alt=""> -->
+                        <h1 class="text-background-yellow-color text-xl font-semibold font-caveat">JS Coders</h1>
+                        <ion-icon name="code-slash" class="md:text-xl text-background-yellow-color"></ion-icon>
+                    </a>
+                </div>
 
-                <div class="h-screen mt-28 mx-auto">
-                    <!-- Icons menu -->
-                    <div class="cursor-pointer">
-                        <!-- Home -->
-                        <div class="transition 500 hover:scale-125 mb-4">
-                            <a href="./index.html" title="Home">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
-                                    <path fill="currentColor"
-                                        d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" />
-                                </svg>
-                            </a>
-                        </div>
+                <!-- Menu -->
+                <div
+                    class="nav-links duration-500 sm:static sm:min-h-fit pr-5 absolute bg-hex-yellow min-h-[30vh] md:w-auto left-0 top-[-100%] w-full flex px-5">
+                    <ul class="text-white flex items-center flex-col md:items-center sm:gap-8 gap-5">
+                        <li class="active:text-hex-white">
+                            <a href="./index.html"
+                                class="transition 500 hover:text-hex-white text-lg font-medium text-background-yellow-color">Home</a>
+                        </li>
+                        <li class="active:text-hex-white">
+                            <a href="https://cyberdudenetworks.com/about" target="_blank"
+                                class="transition 500 hover:text-hex-white text-lg font-medium text-background-yellow-color">About</a>
+                        </li>
+                        <li>
+                            <a href="https://cyberdudenetworks.com/contact-us" target="_blank"
+                                class="transition 500 hover:text-hex-white text-lg font-medium text-background-yellow-color">Contact</a>
+                        </li>
+                    </ul>
+                </div>
 
-                        <!-- About -->
-                        <div class="transition 500 hover:scale-125 mb-4">
-                            <a href="#" title="About">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 14 16">
-                                    <path fill-rule="evenodd"
-                                        d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7c.19-.18.42-.28.7-.28c.28 0 .52.09.7.28c.18.19.28.42.28.7c0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69c-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31c-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69c.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31c.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68c0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7s-7-3.12-7-7s3.14-7 7-7z"
-                                        fill="currentColor" />
-                                </svg>
-                            </a>
-                        </div>
-
-                        <!-- Contact -->
-                        <div class="transition 500 hover:scale-125">
-                            <a href="#" title="Contact">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 48 48">
-                                    <path fill="currentColor"
-                                        d="M43 15.584a5.001 5.001 0 1 0-6.607-6.53a4.984 4.984 0 0 0-.368 2.446A5.004 5.004 0 0 0 43 15.584ZM10.25 9h23.52a7.509 7.509 0 0 0-.254 2.5H10.25a2.75 2.75 0 0 0-2.75 2.75v1.249L24 24.573l13.066-7.186c.954.588 2.05.97 3.223 1.08l-15.687 8.628a1.25 1.25 0 0 1-1.077.061l-.127-.06L7.5 18.35v15.4a2.75 2.75 0 0 0 2.75 2.75h27.5a2.75 2.75 0 0 0 2.75-2.75V18.484a7.598 7.598 0 0 0 2.5-.254v15.52c0 2.9-2.35 5.25-5.25 5.25h-27.5A5.25 5.25 0 0 1 5 33.75v-19.5C5 11.35 7.35 9 10.25 9Z" />
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
+                <div class="flex items-center sm:justify-center sm:mt-10 gap-5">
+                    <a href="https://github.com/Mushkir/javascript-dom-landing-page-idea" target="_blank"
+                        class="text-background-yellow-color cursor-pointer transition 500 hover:-translate-y-1"
+                        title="Go to Repo">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                            <path fill="currentColor"
+                                d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33c.85 0 1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2Z" />
+                        </svg>
+                    </a>
+                    <ion-icon name="menu" onclick="onToggleMenu(this)"
+                        class="text-3xl cursor-pointer text-background-yellow-color sm:hidden"></ion-icon>
                 </div>
             </nav>
-        </div>
+        </header>
 
-        <!-- Right-side playlist area -->
-        <div class="bg-black w-full overflow-y-scroll">
-            <section class="video-class p-5">
-                <div class="main-video">
-                    <div class="video pb-2 space-y-1.5">
-                        <video controls autoplay
-                            src="/javascript-dom-landing-page-idea/assets/01 - Introduction to Javascript DOM Course - (தமிழில்) (Tamil) JavaScript DOM-01365de0.mp4">
-                        </video>
-                        <h3 class="title text-white">01 - Introduction to Javascript DOM Course - (தமிழில்)</h3>
-                    </div>
-                </div>
-
-                <div class="video-list bg-gray-700">
-                    <div class="vid active">
-
-                        <video controls
-                            src="/javascript-dom-landing-page-idea/assets/02 - What is HTML DOM - (தமிழில்) (Tamil) JavaScript DOM-90d1a6e3.mp4"
-                            controls></video>
-                        <h3 class="title">02 - What is HTML DOM - (தமிழில்) (Tamil)</h3>
+        <main>
+            <div class="bg-black">
+                <section class="video-class sm:p-5">
+                    <div class="main-video">
+                        <div class="video pb-2 space-y-1.5">
+                            <video controls autoplay
+                                src="/javascript-dom-landing-page-idea/assets/01 - Introduction to Javascript DOM Course - (தமிழில்) (Tamil) JavaScript DOM-01365de0.mp4">
+                            </video>
+                            <h3 class="title text-white">01 - Introduction to Javascript DOM Course - (தமிழில்)</h3>
+                        </div>
                     </div>
 
-                    <div class="vid">
-                        <video controls
-                            src="/javascript-dom-landing-page-idea/assets/03 - Window Object in JavaScript - (தமிழில்) (Tamil) JavaScript DOM-d3fb0bda.mp4"></video>
-                        <h3 class="title">03 - Window Object in JavaScript - (தமிழில்) (Tamil)</h3>
-                    </div>
+                    <div class="video-list bg-gray-700">
+                        <div class="vid active">
 
-                    <div class="vid">
-                        <video controls
-                            src="/javascript-dom-landing-page-idea/assets/04 - Window Object in Action ⚔️ - (தமிழில்) (Tamil) JavaScript DOM-036bc9a3.mp4"></video>
-                        <h3 class="title">04 - Window Object in Action ⚔️ - (தமிழில்) (Tamil)</h3>
-                    </div>
+                            <video controls
+                                src="/javascript-dom-landing-page-idea/assets/02 - What is HTML DOM - (தமிழில்) (Tamil) JavaScript DOM-90d1a6e3.mp4"
+                                controls></video>
+                            <h3 class="title sm:text-base">02 - What is HTML DOM - (தமிழில்) (Tamil)</h3>
+                        </div>
 
-                    <div class="vid">
-                        <video controls
-                            src="/javascript-dom-landing-page-idea/assets/05 - What is Browser Object Model (BOM) - (தமிழில்) (Tamil) JavaScript DOM-8fa08442.mp4"></video>
-                        <h3 class="title">05 - What is Browser Object Model (BOM) - (தமிழில்)</h3>
-                    </div>
-                </div>
-            </section>
+                        <div class="vid">
+                            <video controls
+                                src="/javascript-dom-landing-page-idea/assets/03 - Window Object in JavaScript - (தமிழில்) (Tamil) JavaScript DOM-d3fb0bda.mp4"></video>
+                            <h3 class="title">03 - Window Object in JavaScript - (தமிழில்) (Tamil)</h3>
+                        </div>
 
-        </div>
+                        <div class="vid">
+                            <video controls
+                                src="/javascript-dom-landing-page-idea/assets/04 - Window Object in Action ⚔️ - (தமிழில்) (Tamil) JavaScript DOM-036bc9a3.mp4"></video>
+                            <h3 class="title">04 - Window Object in Action ⚔️ - (தமிழில்) (Tamil)</h3>
+                        </div>
+
+                        <div class="vid">
+                            <video controls
+                                src="/javascript-dom-landing-page-idea/assets/05 - What is Browser Object Model (BOM) - (தமிழில்) (Tamil) JavaScript DOM-8fa08442.mp4"></video>
+                            <h3 class="title">05 - What is Browser Object Model (BOM) - (தமிழில்)</h3>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
     </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script>
+        const nav_links = document.querySelector(".nav-links");
+        function onToggleMenu(e) {
+            e.name = e.name === "menu" ? "close" : "menu";
+            nav_links.classList.toggle("top-[20px]");
+        }
+    </script>
 
     <script>
         let listVideo = document.querySelectorAll('.video-list .vid')
@@ -128,8 +135,7 @@
             }
         })
     </script>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
 
 </body>
 
