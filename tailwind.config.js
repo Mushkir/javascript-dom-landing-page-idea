@@ -19,7 +19,8 @@ export default {
       },
       fontFamily: {
         caveat: ['Caveat'],
-        montserrat: ['Montserrat']
+        montserrat: ['Montserrat'],
+        nunito: ['Nunito Sans']
       },
       letterSpacing: {
         "2px" :"0.4em"
