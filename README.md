@@ -2,10 +2,11 @@
 # JavaScript DOM Landing Page
 
 In the course of my internship at [CyberDude Networks](https://www.cyberdudenetworks.com), I had the opportunity to develop a dynamic and fully responsive landing page UI using a powerful combination of HTML, Tailwind CSS, and JavaScript, all seamlessly orchestrated with Vite. This project served as an invaluable learning experience, enabling me to grasp the intricacies of crafting a responsive web design. By harnessing the capabilities of Tailwind CSS, I was able to streamline and expedite the styling process, while Vite ensured efficient development and optimization. The result is a user-friendly and visually appealing landing page that adapts effortlessly to various screen sizes, showcasing my proficiency in front-end web development and responsive design. This project, detailed in this repository, stands as a testament to my growth and proficiency in creating modern, responsive web interfaces.
+
+
 ## Demo
 
-[Live Preview](https://mushkir.github.io/javascript-dom-landing-page-idea)
-
+[Live Preview - For better experience Open in New Tab](https://mushkir.github.io/javascript-dom-landing-page-idea)
 
 
 ## Features
